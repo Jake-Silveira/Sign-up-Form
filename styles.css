@@ -36,17 +36,31 @@ form{
     justify-content: center;
 }
 .rightForm{
-    padding: 100px;
     border-style: solid;
     border-radius: 5px;
     background-color: beige;
 }
-.leftInput{
+.leftInput, .rightInput{
     display: flex;
     flex-direction: column;
     width: 200px;
+    padding: 50px;
 }
+.leftInput input, .rightInput input{
+    margin-bottom: 25px;
+}
+
 #splash{
     width: 400px;
     height: 600px;
+}
+.formInputs{
+    display: flex;
+    flex-direction: row;
+}
+#createAccount{
+    width: 150px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 25px;
 }
