@@ -1,6 +1,15 @@
 body{
     background-color: black;
 }
+input{
+    border-radius: 5px;
+    border-color: #E5E7EB;
+}
+input:focus {
+    border-style: solid;
+    border-color: blue;
+    box-shadow: 3px 3px blue;
+}
 form{
     background-color: white;
     margin: 0px 100px 0px 100px;
@@ -20,10 +29,18 @@ form{
 #logo{
     position: absolute;
     top: 100;
-    left: 20;
+    left: 10;
     width: 150px;
     height: auto;
     margin: 125px;
+}
+#background{
+    background-color: black;
+    opacity: 100%;
+    position: absolute;
+    top: 100;
+    left: 175;
+    width: 150px;
 }
 #photoCred{
     font-size: 12px;
@@ -43,7 +60,7 @@ form{
 .leftInput, .rightInput{
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 250px;
     padding: 50px;
 }
 .leftInput input, .rightInput input{
@@ -63,4 +80,5 @@ form{
     height: 50px;
     margin-left: 50px;
     margin-top: 25px;
+    background-color: #596D48;
 }
