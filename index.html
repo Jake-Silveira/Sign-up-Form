@@ -10,7 +10,9 @@
     <section class="leftPhoto">
         <img src="/photos/halie-west-25xggax4bSA-unsplash.jpg" id="splash">
         <img src="/photos/odin-logo.png" id="logo">
-        <div id="background">ODIN</div>
+        <div id="background">
+            <p>ODIN</p>
+        </div>
         <p id="photoCred">Photo by <a href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
         </p>
     </section>
@@ -36,8 +38,8 @@
     <section class="rightInput">
         <label for="last_name">Last Name:</label>
         <input type="text" id="last_name" name="last_name" placeholder="Doe" required>
-        <label for="phone">Phone Numer:</label>
-        <input type="text" id="phone" name="phone" placeholder="xxx-xxx-xxxx">
+        <label for="phone">Phone Numer (xxx-xxx-xxxx):</label>
+        <input type="tel" id="phone" name="phone" placeholder="xxx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" minlength="12" maxlength="12">
         <label for="confirm_password">Confirm Password:</label>
         <input type="password" id="confirm_password" name="confirm_password"  minlength="8" required>
     </section>

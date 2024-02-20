@@ -5,10 +5,13 @@ input{
     border-radius: 5px;
     border-color: #E5E7EB;
 }
-input:focus {
+input:focus{
     border-style: solid;
     border-color: blue;
     box-shadow: 3px 3px blue;
+}
+input:invalid{
+    box-shadow: 3px 3px red;
 }
 form{
     background-color: white;
@@ -25,22 +28,30 @@ form{
     position: relative;
     top: 0;
     left: 0;
+    width: 400px;
+    height: 625px;
 }
 #logo{
     position: absolute;
     top: 100;
-    left: 10;
-    width: 150px;
+    left: 5;
+    width: 75px;
     height: auto;
     margin: 125px;
 }
 #background{
     background-color: black;
-    opacity: 100%;
+    opacity: 50%;
     position: absolute;
-    top: 100;
-    left: 175;
-    width: 150px;
+    top: 100px;
+    width: 400px;
+    Height: 150px;
+}
+#background p{
+    color: white;
+    left: 225px;
+    position: absolute;
+    font-size: 50px;
 }
 #photoCred{
     font-size: 12px;
@@ -65,11 +76,6 @@ form{
 }
 .leftInput input, .rightInput input{
     margin-bottom: 25px;
-}
-
-#splash{
-    width: 400px;
-    height: 600px;
 }
 .formInputs{
     display: flex;
