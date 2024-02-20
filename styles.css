@@ -6,12 +6,7 @@ input{
     border-color: #E5E7EB;
 }
 input:focus{
-    border-style: solid;
-    border-color: blue;
     box-shadow: 3px 3px blue;
-}
-input:invalid{
-    box-shadow: 3px 3px red;
 }
 form{
     background-color: white;
