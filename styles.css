@@ -26,6 +26,14 @@ form{
     width: 400px;
     height: 625px;
 }
+#background{
+    background-color: black;
+    opacity: 40%;
+    position: absolute;
+    top: 100px;
+    width: 400px;
+    Height: 150px;
+}
 #logo{
     position: absolute;
     top: 100;
@@ -33,14 +41,6 @@ form{
     width: 75px;
     height: auto;
     margin: 125px;
-}
-#background{
-    background-color: black;
-    opacity: 50%;
-    position: absolute;
-    top: 100px;
-    width: 400px;
-    Height: 150px;
 }
 #background p{
     color: white;
@@ -57,6 +57,7 @@ form{
 }
 .container{
     justify-content: center;
+    background-color: white;
 }
 .rightForm{
     border-style: solid;
